@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main
+{
+    height: 100vh;
+    width: 100%;
+   background: pink;
+   position: relative;
+
+}
+
+#main img
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.text
+{
+    position: absolute;
+    left: 5%;
+    bottom: 30%;
+
+}
+.text h1 
+{
+    font-size: 60px;
+}
+
+.text button 
+{
+    height: 40px;
+    width: 200px;
+    background: orange;
+    border: none;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+
+/* ------------------dance------------ */
+
+#dance
+{
+    padding: 50px;
+    background: rgb(203, 137, 14);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dance_cont
+{
+    padding: 20px;
+    /* background: red; */
+    max-width: 1200px;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.dance_text
+{
+    /* padding: 20px; */
+    /* background: pink; */
+    width: 600px;
+    margin: auto;
+}
+
+.dance_text h1 
+{
+    font-size: 40px;
+    color: white;
+}
+.dance_text p
+{
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+}
+
+.dance_part
+{
+    width: 100%;
+    padding: 10px;
+    /* background: blue; */
+    margin-top: 40px;
+    justify-content: space-between;
+    display: flex;
+    
+
+
+
+}
+.dpart
+{
+    width: calc(33% - 10px);
+    /* padding: 10px; */
+    background: rgb(54, 50, 50);
+    height:380px;
+
+}
+
+.dpart img
+{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover; 
+    cursor: pointer;
+}
+
+.dpart h1 
+{
+    color: white;
+}
+
+.dpart h1:hover
+{
+    color: orange;
+}
+.dpart p 
+{
+    color: white;
+    font-size: 15px;
+    margin-top: 5px;
+} 
+
+/* --------------------bach---- */
+
+#bach
+{
+    padding: 50px;
+    background: rgb(44, 43, 43);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.dpart i
+{
+    font-size: 100px;
+    /* position: absolute; */
+    color:white;
+    margin-top: 50px;
+    cursor: pointer;
+
+  
+    
+}
+.dpart i:hover
+{
+    color: orange;
+    transition: 1s;
+}
+.dpart h2 
+{
+    font-size: 25px;
+    margin: 30px auto;
+    color: white;
+}
+
+.dpart h2:hover
+{
+    color: orange;
+}
+
+.dpart span 
+{
+    margin-top: 50px;
+    font-size: 25px;
+    color: white;
+}
+
+/* ---------------our statistics---------------- */
+
+.our_part
+{
+    height: 300px;
+    /* background: pink; */
+    height: 100%;
+    color: white;
+    margin-bottom: 100px;
+}
+
+.our_part h2 
+{
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+/* ------------trasperent----------------- */
+
+#tra
+{
+    width: 100%;
+    background-image: url(img/l.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.tcover 
+{
+    
+    width: 90%;
+    max-width: 1200px;
+    padding: 200px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.t_text
+{
+    padding: 20px;
+    width: 600px;
+    /* background: pink; */
+    margin: auto;
+}
+
+.t_text  p
+{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.t_text h1 
+{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+/* ------------------subscribe------------ */
+
+#sub
+{
+    padding: 50px;
+    
+    background: orange;
+}
+
+.sub_cont
+{
+    max-width: 1200px;
+    width: 90%;
+    /* background: yellow; */
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+}
+
+.sub_text
+{
+    /* padding: 20px; */
+    width: 600px;
+    /* background: pink; */
+    margin: auto;
+}
+
+.sub_text h1 
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.sub_text p 
+{
+    font-size: 18px;
+}
+
+.sub_text input 
+{
+    height: 40px;
+    text-align: start;
+    width: 300px;
+    border: none;
+    margin-top: 40px;
+    cursor: progress;
+    font-size: 16px;
+}
+.sub_text button 
+{
+    height:40px;
+    width: 150px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    background: maroon;
+    margin-left: -5px;
+    cursor: pointer;
+
+    
+}
+
+/* ----------------footer------------------ */
+
+#footer
+{
+    padding: 50px;
+    background: rgb(53, 43, 43);
+}
+.foot_cont
+{
+    /* padding: 20px; */
+    max-width: 1200px;
+    width: 100%;
+    /* background: yellow; */
+    margin: auto;
+    display: flex;
+}
+
+.part_a
+{
+    padding: 30px;
+    /* background: red; */
+    width: 40%;
+    /* display: flex; */
+}
+
+.part_b
+{
+    padding: 10px;
+    /* background: greenyellow; */
+    width: 60%;
+    display: flex;
+   justify-content: space-between;
+     
+}
+
+.part_a h1 
+{
+    color: white;
+    font-size: 25px;
+}
+
+.part_a p
+{
+    color: white;
+}
+
+.icon
+{
+
+    /* padding: 20px; */
+    width: 200px;
+    /* background: blueviolet; */
+    margin-top: 10px;
+}
+
+.icon i 
+{
+    font-size:25px;
+    color: white;
+    margin: 4px;
+}
+
+.btext
+{
+    width: calc(33% - 10px);
+    /* background: gray; */
+    padding-top: 10px;
+    /* display: flex; */
+     margin-bottom: 10px;
+    justify-content: space-between;
+    color: white;
+}
+
+.btext h1
+{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------- */
+
+@media(max-width:990px)
+{
+    
+}
